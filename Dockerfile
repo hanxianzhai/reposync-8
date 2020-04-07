@@ -2,7 +2,7 @@ FROM centos:8
 
 RUN set -eux; \
     export LC_ALL=C; \
-  #  yum update -y; \
+#    yum update -y; \
     yum install -y epel-release yum-utils createrepo
 
 #RUN rm -rf /etc/yum.repos.d/*
